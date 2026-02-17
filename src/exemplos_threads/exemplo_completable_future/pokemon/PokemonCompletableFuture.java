@@ -33,6 +33,6 @@ public class PokemonCompletableFuture {
             System.out.println(pokemonB.join());
             System.out.println(pokemonC.join());
             System.out.println(pokemonD.join());
-        }).get();
+        });
     }
 }
